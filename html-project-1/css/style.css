@@ -1,0 +1,36 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+a {
+    text-decoration: none;
+}
+.site-wrapper {
+    width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Header */
+header ul {
+    list-style-type: none;
+}
+header .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+header .navigation {
+    display: flex;
+}
+header .navigation li:not(:first-of-type) {
+    margin-left: 50px;
+}
