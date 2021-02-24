@@ -28,8 +28,8 @@ h1 {
 }
 h2 {
     font-size: 44px;
-    line-height: 36px;
-    font-weight: 500;
+    line-height: 57px;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 h3 {
@@ -41,6 +41,10 @@ h3 {
 .center {
     text-align: center;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* Shortcodes */
 .site-wrapper {
     width: 100%;
@@ -50,10 +54,47 @@ h3 {
     margin: 0 auto;
 }
 .category-tag {
+    color: #FA4A0C;
     display: block;
     font-size: 24px;
     font-weight: 500;
-    color: #FA4A0C;
+    
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.row > .col-40 {
+    width: 40%;
+}
+.row > .col-60 {
+    width: 60%;
+}
+.basic-promo .category-tag{
+    margin-bottom: 30px;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.basic-promo h2 {
+    color: #252B42;
+}
+.basic-promo p {
+    color: #737373;
+}
+.basic-promo img {
+    max-width: 500px;
 }
 /* Header */
 header ul {
@@ -88,6 +129,8 @@ header .navigation li:not(:first-of-type) {
 .hero .button-list {
     margin-top: 40px;
     margin-bottom: 45px;
+    position: relative;
+    z-index: 99;
 }
 .hero .button-list a {
     color: #fff;
@@ -115,11 +158,14 @@ header .navigation li:not(:first-of-type) {
 }
 
 /* Promo-one */
-.promo-one .content {
-    transform: translateY(-270px);
+.promo-one {
+    margin-top: -270px;
 }
 .promo-one .content hr {
     max-width: 884px;
     margin: 0 auto 50px;
     border-top: 3px solid #BCBABA;
 }
+
+/* promo-two */
+
