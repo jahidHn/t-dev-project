@@ -1,0 +1,31 @@
+@media(min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+@media(max-width: 1199px){
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 767px){
+    .basic-promo .row.row-reverse {
+        flex-direction: column-reverse;
+    }
+    .basic-promo .row {
+        flex-direction: column-reverse;
+    }
+    .row > .col-40 {
+        width: 100%;
+    }
+    .row > .col-60 {
+        width: 100%;
+    }
+    .basic-promo .col-40 .img-thumb {text-align: center;}
+}
+
+@media(min-width: 768px) and (max-width: 1199px) {
+    
+}

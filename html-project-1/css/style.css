@@ -50,7 +50,6 @@ img {
     width: 100%;
 }
 .container {
-    max-width: 1200px;
     margin: 0 auto;
 }
 .category-tag {
@@ -121,7 +120,8 @@ header .navigation li:not(:first-of-type) {
 /*hero */
 
 .hero {
-    background: url('../../images/banner.png');
+    background: url('../../images/banner.png') no-repeat center center;
+    background-size: cover;
     color: #fff;
     text-align: center;
     padding: 72px 0 100px;
