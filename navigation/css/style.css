@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul.nav {
+    display: flex;
+}
+ul.nav>li>a {
+    display: block;
+    padding: 10px 15px;
+}
+ul.nav > li ul {
+    display: none;;
+}
+ul.nav>li:hover> ul,ul.nav>li>ul>li:hover>ul ,ul.nav>li>ul>li>ul>li:hover> ul{
+    display: block;
+    float: right;
+}
+
